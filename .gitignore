@@ -12,6 +12,7 @@ virenv/
 
 # Ignore Chroma vector DB
 chroma_db/
+chroma_store/
 
 # Ignore Streamlit, logs, OS files
 *.log
