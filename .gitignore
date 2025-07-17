@@ -1,0 +1,22 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+env/
+venv/
+virenv/
+
+# Ignore dotenv files
+.env
+
+# Ignore Chroma vector DB
+chroma_db/
+
+# Ignore Streamlit, logs, OS files
+*.log
+.DS_Store
+
+# Ignore IDE configs
+.vscode/
+.idea/
