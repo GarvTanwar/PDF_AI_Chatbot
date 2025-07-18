@@ -8,7 +8,7 @@ langchain-google-genai
 
 chromadb
 
-PyPDF2
+PyPDF
 sentence-transformers
 aiofiles
 
@@ -16,3 +16,5 @@ python-dotenv
 
 pydantic
 requests
+
+python-multipart

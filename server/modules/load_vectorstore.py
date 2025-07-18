@@ -1,8 +1,8 @@
 import os
 from pathlib import Path
-from langchain.vectorstores import Chroma
-from langchain.embeddings import HuggingFaceBgeEmbeddings
-from langchain.document_loaders import PyPDFLoader
+from langchain_community.vectorstores import Chroma
+from langchain_community.embeddings import HuggingFaceBgeEmbeddings
+from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 
@@ -24,7 +24,7 @@ def load_vectorstore(uploaded_files):
         loader = PyPDFLoader(path)
         docs.extend(loader.load())
     
-    splitter = RecursiveCharacterTextSplitter(chunk_size = 1000, chunk_overlap = 100)
+    splitter = RecursiveCharacterTextSplitter(chunk_size = 1500, chunk_overlap = 200)
     texts = splitter.split_documents(docs)
 
 
