@@ -21,3 +21,10 @@ chroma_store/
 # Ignore IDE configs
 .vscode/
 .idea/
+
+# Ignore Congig file
+config.py
+
+uploaded_pdfs/
+
+faiss_index/

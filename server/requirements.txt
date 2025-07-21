@@ -9,6 +9,10 @@ langchain-google-genai
 chromadb
 
 PyPDF
+unstructured
+python-docx
+python-pptx
+openpyxl
 sentence-transformers
 aiofiles
 
@@ -18,3 +22,6 @@ pydantic
 requests
 
 python-multipart
+
+langchain-chroma
+langchain-huggingface
